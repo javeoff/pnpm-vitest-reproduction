@@ -1,0 +1,21 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.0.1"
+  },
+  "dependencies": {
+    "@cryptoscan/solana-send-transaction": "^0.2.4",
+    "reproduction-package-b": "latest"
+  }
+}
